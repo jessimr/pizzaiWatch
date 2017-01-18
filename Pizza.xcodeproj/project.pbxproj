@@ -19,6 +19,13 @@
 		DCE3D6B51E2F5C60003DE61F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3D6B41E2F5C60003DE61F /* InterfaceController.swift */; };
 		DCE3D6B71E2F5C60003DE61F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3D6B61E2F5C60003DE61F /* ExtensionDelegate.swift */; };
 		DCE3D6B91E2F5C60003DE61F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE3D6B81E2F5C60003DE61F /* Assets.xcassets */; };
+		DCE3D6CB1E2F648C003DE61F /* InterfaceControllerTamano.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3D6CA1E2F648C003DE61F /* InterfaceControllerTamano.swift */; };
+		DCE3D6CD1E2F64C8003DE61F /* InterfaceControllerMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3D6CC1E2F64C8003DE61F /* InterfaceControllerMasa.swift */; };
+		DCE3D6CF1E2F64E4003DE61F /* InterfaceControllerQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3D6CE1E2F64E4003DE61F /* InterfaceControllerQueso.swift */; };
+		DCE3D6D11E2F64F4003DE61F /* InterfaceControllerIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3D6D01E2F64F4003DE61F /* InterfaceControllerIngredientes.swift */; };
+		DCE3D6D31E2F650C003DE61F /* InterfaceControllerPedido.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3D6D21E2F650C003DE61F /* InterfaceControllerPedido.swift */; };
+		DCE3D6D51E2F6517003DE61F /* InterfaceControllerFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3D6D41E2F6517003DE61F /* InterfaceControllerFinal.swift */; };
+		DCE3D6D71E2F68D3003DE61F /* Valor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3D6D61E2F68D3003DE61F /* Valor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +87,13 @@
 		DCE3D6B61E2F5C60003DE61F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		DCE3D6B81E2F5C60003DE61F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCE3D6BA1E2F5C60003DE61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE3D6CA1E2F648C003DE61F /* InterfaceControllerTamano.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceControllerTamano.swift; sourceTree = "<group>"; };
+		DCE3D6CC1E2F64C8003DE61F /* InterfaceControllerMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceControllerMasa.swift; sourceTree = "<group>"; };
+		DCE3D6CE1E2F64E4003DE61F /* InterfaceControllerQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceControllerQueso.swift; sourceTree = "<group>"; };
+		DCE3D6D01E2F64F4003DE61F /* InterfaceControllerIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceControllerIngredientes.swift; sourceTree = "<group>"; };
+		DCE3D6D21E2F650C003DE61F /* InterfaceControllerPedido.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceControllerPedido.swift; sourceTree = "<group>"; };
+		DCE3D6D41E2F6517003DE61F /* InterfaceControllerFinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceControllerFinal.swift; sourceTree = "<group>"; };
+		DCE3D6D61E2F68D3003DE61F /* Valor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Valor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +164,13 @@
 				DCE3D6B61E2F5C60003DE61F /* ExtensionDelegate.swift */,
 				DCE3D6B81E2F5C60003DE61F /* Assets.xcassets */,
 				DCE3D6BA1E2F5C60003DE61F /* Info.plist */,
+				DCE3D6CA1E2F648C003DE61F /* InterfaceControllerTamano.swift */,
+				DCE3D6CC1E2F64C8003DE61F /* InterfaceControllerMasa.swift */,
+				DCE3D6CE1E2F64E4003DE61F /* InterfaceControllerQueso.swift */,
+				DCE3D6D01E2F64F4003DE61F /* InterfaceControllerIngredientes.swift */,
+				DCE3D6D21E2F650C003DE61F /* InterfaceControllerPedido.swift */,
+				DCE3D6D41E2F6517003DE61F /* InterfaceControllerFinal.swift */,
+				DCE3D6D61E2F68D3003DE61F /* Valor.swift */,
 			);
 			path = "Pizza WatchKit Extension";
 			sourceTree = "<group>";
@@ -298,8 +319,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE3D6D71E2F68D3003DE61F /* Valor.swift in Sources */,
+				DCE3D6D51E2F6517003DE61F /* InterfaceControllerFinal.swift in Sources */,
+				DCE3D6CB1E2F648C003DE61F /* InterfaceControllerTamano.swift in Sources */,
 				DCE3D6B71E2F5C60003DE61F /* ExtensionDelegate.swift in Sources */,
+				DCE3D6D11E2F64F4003DE61F /* InterfaceControllerIngredientes.swift in Sources */,
 				DCE3D6B51E2F5C60003DE61F /* InterfaceController.swift in Sources */,
+				DCE3D6CF1E2F64E4003DE61F /* InterfaceControllerQueso.swift in Sources */,
+				DCE3D6D31E2F650C003DE61F /* InterfaceControllerPedido.swift in Sources */,
+				DCE3D6CD1E2F64C8003DE61F /* InterfaceControllerMasa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
